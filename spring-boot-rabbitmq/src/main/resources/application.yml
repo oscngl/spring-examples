@@ -1,0 +1,7 @@
+rabbitmq:
+  exchanges:
+    internal: internal.exchange
+  queues:
+    message: message.queue
+  routing-keys:
+    internal-message: internal.message.routing-key
